@@ -1,0 +1,41 @@
+.box {
+  height: 750px;
+  /* width: 200px; */
+  opacity: 1.0;
+  border-radius: 15px;
+   padding: 20px;
+   /* border: 1px solid red; */
+   width: 85%;
+   margin-top: 50px;
+ 
+}
+
+/* #parentbox {
+  background-image: url("blue.jpg");
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-size: 120%;
+} */
+.boxfirst{
+  font-weight: bold;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.custom-input {
+  border-radius: 10px;
+  padding-left: 30px;
+  height: 40px;
+  width: 30%;
+}
+
+.custom-margin {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  .custom-margin {
+    margin-left: 100px;
+  }
+}
